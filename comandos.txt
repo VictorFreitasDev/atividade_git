@@ -33,3 +33,7 @@ git push
 git mv estilo.css css/estilo.css
 git status
 git commit -a -m "alterando localidade do estilo.css para css/estilo.css, e mudando nos arquivos .html"
+git push
+Pergunta: por que arquivos como .env normalmente não devem ser enviados para um repositório? R: por que guardará informações importantes, como api key e tals
+git add .
+git commit -a -m "enviando gitignore, com itens ignorados"
