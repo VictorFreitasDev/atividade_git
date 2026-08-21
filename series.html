@@ -1,123 +1,152 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Séries</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    
     <main>
         <h1>Séries</h1>
-        <p>Bem-vindo à página de séries!</p>
-        <div class="series">
+                <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="series.html">Séries</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+        <p class="subtitulo">Bem-vindo à página de séries!</p>
+
+        <section class="series" aria-label="Lista de séries">
             <div class="tudo">
-    <div class="card">
-        <h3>Breaking Bad</h3>
-        <img class="img" src="images\breakingimg.jpg" />
-        <ul>
-            <li><strong>Código:</strong> SER01</li>
-            <li><strong>Nome:</strong> Breaking Bad</li>
-            <li><strong>Gênero:</strong> Drama policial</li>
-            <li><strong>Temporadas:</strong> 5</li>
-            <li><strong>Episódios:</strong> 62</li>
-            <li><strong>Nota:</strong> 9,5/10</li>
-        </ul>
-    </div>
-    <div class="card">
-        <h3>Game of Thrones</h3>
-        <img class="img" src="images\gameimg.jpg" />
-        <ul>
-            <li><strong>Código:</strong> SER02</li>
-            <li><strong>Nome:</strong> Game of Thrones</li>
-            <li><strong>Gênero:</strong> Fantasia</li>
-            <li><strong>Temporadas:</strong> 8</li>
-            <li><strong>Episódios:</strong> 73</li>
-            <li><strong>Nota:</strong> 9,2/10</li>
-        </ul>
-    </div>
-    <div class="card">
-        <h3>The Walking Dead</h3>
-        <img class="img" src="images\walkingimg.webp" />
-        <ul>
-            <li><strong>Código:</strong> SER03</li>
-            <li><strong>Nome:</strong> The Walking Dead</li>
-            <li><strong>Gênero:</strong> Terror/Sobrevivência</li>
-            <li><strong>Temporadas:</strong> 11</li>
-            <li><strong>Episódios:</strong> 177</li>
-            <li><strong>Nota:</strong> 8,1/10</li>
-        </ul>
-    </div>
 
-    <div class="card">
-        <h3>Stranger Things</h3>
-        <img class="img" src="images\stangerimg.jpg" />
-        <ul>
-            <li><strong>Código:</strong> SER04</li>
-            <li><strong>Nome:</strong> Stranger Things</li>
-            <li><strong>Gênero:</strong> Ficção científica</li>
-            <li><strong>Temporadas:</strong> 5</li>
-            <li><strong>Episódios:</strong> 42</li>
-            <li><strong>Nota:</strong> 9,0/10</li>
-        </ul>
-    </div>
+                <article class="card">
+                    <img class="img" src="images/breakingimg.jpg" alt="Breaking Bad">
+                    <div class="info">
+                        <h3>Breaking Bad</h3>
+                        <ul>
+                            <li><strong>Código:</strong> SER01</li>
+                            <li><strong>Nome:</strong> Breaking Bad</li>
+                            <li><strong>Gênero:</strong> Drama policial</li>
+                            <li><strong>Temporadas:</strong> 5</li>
+                            <li><strong>Episódios:</strong> 62</li>
+                            <li><strong>Nota:</strong> 9,5/10</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <div class="card">
-        <h3>Dark</h3>
-        <img class="img" src="images\darkimg.jpg" />
-        <ul>
-            <li><strong>Código:</strong> SER05</li>
-            <li><strong>Nome:</strong> Dark</li>
-            <li><strong>Gênero:</strong> Mistério/Thriller</li>
-            <li><strong>Temporadas:</strong> 3</li>
-            <li><strong>Episódios:</strong> 26</li>
-            <li><strong>Nota:</strong> 8,8/10</li>
-        </ul>
-    </div>
+                <article class="card">
+                    <img class="img" src="images/gameimg.jpg" alt="Game of Thrones">
+                    <div class="info">
+                        <h3>Game of Thrones</h3>
+                        <ul>
+                            <li><strong>Código:</strong> SER02</li>
+                            <li><strong>Nome:</strong> Game of Thrones</li>
+                            <li><strong>Gênero:</strong> Fantasia</li>
+                            <li><strong>Temporadas:</strong> 8</li>
+                            <li><strong>Episódios:</strong> 73</li>
+                            <li><strong>Nota:</strong> 9,2/10</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <div class="card">
-        <h3>Black Mirror</h3>
-        <img class="img" src="images\blackimg.jpg" />
-        <ul>
-            <li><strong>Código:</strong> SER06</li>
-            <li><strong>Nome:</strong> Black Mirror</li>
-            <li><strong>Gênero:</strong> Distopia</li>
-            <li><strong>Temporadas:</strong> 6</li>
-            <li><strong>Episódios:</strong> 27</li>
-            <li><strong>Nota:</strong> 8,7/10</li>
-        </ul>
-    </div>
+                <article class="card">
+                    <img class="img" src="images/walkingimg.webp" alt="The Walking Dead">
+                    <div class="info">
+                        <h3>The Walking Dead</h3>
+                        <ul>
+                            <li><strong>Código:</strong> SER03</li>
+                            <li><strong>Nome:</strong> The Walking Dead</li>
+                            <li><strong>Gênero:</strong> Terror/Sobrevivência</li>
+                            <li><strong>Temporadas:</strong> 11</li>
+                            <li><strong>Episódios:</strong> 177</li>
+                            <li><strong>Nota:</strong> 8,1/10</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <div class="card">
-        <h3>House of Dragons</h3>
-        <img class="img" src="images\houseimg.png" />
-        <ul>
-            <li><strong>Código:</strong> SER07</li>
-            <li><strong>Nome:</strong> House of The Dragon</li>
-            <li><strong>Gênero:</strong> Fantasia</li>
-            <li><strong>Temporadas:</strong> 3</li>
-            <li><strong>Episódios:</strong> 26</li>
-            <li><strong>Nota:</strong> 8,6/10</li>
-        </ul>
-    </div>
+                <article class="card">
+                    <img class="img" src="images/strangerimg.jpg" alt="Stranger Things">
+                    <div class="info">
+                        <h3>Stranger Things</h3>
+                        <ul>
+                            <li><strong>Código:</strong> SER04</li>
+                            <li><strong>Nome:</strong> Stranger Things</li>
+                            <li><strong>Gênero:</strong> Ficção científica</li>
+                            <li><strong>Temporadas:</strong> 5</li>
+                            <li><strong>Episódios:</strong> 42</li>
+                            <li><strong>Nota:</strong> 9,0/10</li>
+                        </ul>
+                    </div>
+                </article>
 
-    <div class="card">
-        <h3>The Crown</h3>
-        <img class="img" src="images\thecrownimg.jpg" />
-        <ul>
-            <li><strong>Código:</strong> SER08</li>
-            <li><strong>Nome:</strong> The Crown</li>
-            <li><strong>Gênero:</strong> Drama histórico</li>
-            <li><strong>Temporadas:</strong> 6</li>
-            <li><strong>Episódios:</strong> 60</li>
-            <li><strong>Nota:</strong> 8,7/10</li>
-        </ul>
-    </div>
-</div>
-</div>
-</main>
+                <article class="card">
+                    <img class="img" src="images/darkimg.jpg" alt="Dark">
+                    <div class="info">
+                        <h3>Dark</h3>
+                        <ul>
+                            <li><strong>Código:</strong> SER05</li>
+                            <li><strong>Nome:</strong> Dark</li>
+                            <li><strong>Gênero:</strong> Mistério/Thriller</li>
+                            <li><strong>Temporadas:</strong> 3</li>
+                            <li><strong>Episódios:</strong> 26</li>
+                            <li><strong>Nota:</strong> 8,8/10</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="img" src="images/blackimg.jpg" alt="Black Mirror">
+                    <div class="info">
+                        <h3>Black Mirror</h3>
+                        <ul>
+                            <li><strong>Código:</strong> SER06</li>
+                            <li><strong>Nome:</strong> Black Mirror</li>
+                            <li><strong>Gênero:</strong> Distopia</li>
+                            <li><strong>Temporadas:</strong> 6</li>
+                            <li><strong>Episódios:</strong> 27</li>
+                            <li><strong>Nota:</strong> 8,7/10</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="img" src="images/houseimg.png" alt="House of the Dragon">
+                    <div class="info">
+                        <h3>House of the Dragon</h3>
+                        <ul>
+                            <li><strong>Código:</strong> SER07</li>
+                            <li><strong>Nome:</strong> House of the Dragon</li>
+                            <li><strong>Gênero:</strong> Fantasia</li>
+                            <li><strong>Temporadas:</strong> 3</li>
+                            <li><strong>Episódios:</strong> 26</li>
+                            <li><strong>Nota:</strong> 8,6/10</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="img" src="images/thecrownimg.jpg" alt="The Crown">
+                    <div class="info">
+                        <h3>The Crown</h3>
+                        <ul>
+                            <li><strong>Código:</strong> SER08</li>
+                            <li><strong>Nome:</strong> The Crown</li>
+                            <li><strong>Gênero:</strong> Drama histórico</li>
+                            <li><strong>Temporadas:</strong> 6</li>
+                            <li><strong>Episódios:</strong> 60</li>
+                            <li><strong>Nota:</strong> 8,7/10</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
+

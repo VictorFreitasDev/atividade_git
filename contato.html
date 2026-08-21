@@ -1,30 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Contato</title>
 </head>
+
 <body>
-    <main>
-        <section>
+    <main class="pagina">
+
+        <header class="cabecalho">
             <h1>Contato</h1>
-            <p>Entre em contato conosco!</p>
+        </header>
+
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="series.html">Séries</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+        <section class="conteudo contato">
+
+            <h2>Entre em contato</h2>
+
+            <p>
+                Se você tiver uma sugestão de série, quiser dar um feedback
+                ou só mandar uma mensagem, pode falar comigo.
+            </p>
 
             <form>
                 <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Digite seu nome"
+                    required
+                >
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Digite seu email"
+                    required
+                >
 
                 <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Escreva sua mensagem"
+                    required
+                ></textarea>
 
                 <input type="submit" value="Enviar">
+
             </form>
+
         </section>
+
     </main>
 </body>
+
 </html>
