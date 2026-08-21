@@ -14,7 +14,14 @@ git add .
 git commit -a -m "Atualização Grande: Mudançãs no Style.cs e arquivos .html e adição de imagens na pasta /images"
 git push
 git add .
-Mudanças no visual, e adições de menu, escritas e divs para uma melhor visualização
+git commit -a -m "Mudanças no visual, e adições de menu, escritas e divs para uma melhor visualização"
 git push
 git log --oneline 
 Pergunta: quantos commits seu projeto possui até este momento?  r: 5 COMMITS
+git add .
+git commit -a -m "enviando teste.txt"
+git push
+git rm teste.txt
+git add . 
+git commit -a -m "removendo teste.txt"
+git push
