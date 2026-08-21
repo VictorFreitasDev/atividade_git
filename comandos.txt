@@ -1,3 +1,9 @@
 git init
 git status
 git add.
+git branch -M main
+git commit -a -m "Criando estrutura inicial do projeto"
+git push --set-upstream origin main
+git add .
+git commit -a -m "Enviando alterações"
+git push
