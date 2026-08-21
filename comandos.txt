@@ -30,3 +30,6 @@ git mv style.css estilo.css
 git status
 git commit -a -m "alterando nome do style.css + em arquivos (link css)"
 git push
+git mv estilo.css css/estilo.css
+git status
+git commit -a -m "alterando localidade do estilo.css para css/estilo.css, e mudando nos arquivos .html"
