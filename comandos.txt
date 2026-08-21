@@ -9,3 +9,7 @@ git commit -a -m "Enviando alterações"
 git push
 git add .
 git commit -a -m "Alterações no sobre e contato"
+git push
+git add .
+git commit -a -m "Atualização Grande: Mudançãs no Style.cs e arquivos .html e adição de imagens na pasta /images"
+git push
